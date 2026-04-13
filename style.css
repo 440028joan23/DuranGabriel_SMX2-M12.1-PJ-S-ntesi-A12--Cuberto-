@@ -1,21 +1,29 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .contenedor {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
-    height: 400px;
+    height: 300px;
     border: 1px solid black;
+    padding: 5px;
 
 }
-.tituloP {
+#TITLE {
     color: green;
-    text-align: center;
-    width: 100%;
+    text-align: left;
+   font-size: 30px;
     justify-content: center;
+}
+.elemento {
+    padding: 20px;
 }
 .columna {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -23,8 +31,65 @@
 }
 .doselemento {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.gris{
+    color: grey;
+    font-size: 32px;
+}
+.miniTitle{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.fotter{
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+}
+.dsmanera{
+    font-size: 14px;
+}
+.forcolumna{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     border: 1px solid black;
+}
+.bigTitle{
+    font-size: 40px;
+    color: black;
+    width: 100%;
+    height: 100px;
+
+}
+.forelemento{
+    padding: 15px;
+    height: 300px;
+    width: 25%;
+    border: 1px solid black;
+}
+.forelemento{
+    font-size: 12px;
+}
+.ALL{
+    background-color: black;
+    color: white;
+    word-spacing: 2px;
+
+}
+.miniTitlee{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
