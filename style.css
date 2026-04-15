@@ -49,6 +49,8 @@ img {
 .miniTitle{
     color: rgb(0, 0, 0);
     font-size: 20px;
+    padding: 20px;
+
 }
 .fotter{
     font-size: 14px;
@@ -77,8 +79,6 @@ img {
     padding: 15px;
     /* height: 300px; */
     width: 25%;
-}
-.forelemento{
     font-size: 12px;
 }
 .ALL{
@@ -149,7 +149,8 @@ img {
         border-radius: 12px;
         margin-top: 15px;
     }
-}   
     .forelemento {
         width: 50%;
+
     }
+} 
